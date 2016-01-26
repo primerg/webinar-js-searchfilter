@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Store</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="http://www.listjs.com/js/libs/jquery-1.8.3.min.js"></script>
+	
+</head>
+<body>
+
+<!-- HEADER-AREA-START -->
+<header class="header-area">
+	<div class="container">
+		<!-- HEADER-CONTENT START-->
+		<div class="header-content">
+			<div id="logo" class="col-sm-6">
+				<a href="index.html">
+					<img src="img/logo.png" alt="" class="logo-defoult">
+				</a>
+			</div>
+			<!-- <div class="user-menu col-sm-6" id="fix-user-menu">
+				<ul class="list-inline pull-right">
+					<li><a href="create-account.html">My Account</a></li>
+					<li><a href="checkout.html">Checkout</a></li>
+					<li><a href="checkout.html">Log In</a></li>
+				</ul>
+			</div> -->
+
+			<div class="user-menu col-sm-6" id="fix-user-menu">
+				<div class="dropdown pull-right">
+				  <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+				    My Account <span class="caret"></span>
+				  </a>
+
+				  <ul class="dropdown-menu" aria-labelledby="dLabel">
+				    <li><a href="create-account.html">My Account</a></li>
+					<li><a href="checkout.html">Checkout</a></li>
+					<li><a href="checkout.html">Log In</a></li>
+				  </ul>
+				</div>
+			</div>
+
+		</div>
+		<!-- HEADER-CONTENT END-->
+	</div>
+</header>
+
+<!-- MAIN-MENU-AREA-START -->
+<nav class="main-menu-area" id="sticker">
+	<div class="container">
+			<a class="mobile-menu hidden-md hidden-lg" href="#nav">MENU <span>&#9776</span></a>
+
+			<ul class="list-inline">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="category-men.html">Mens</a></li>
+				<li><a href="category-women.html">Womens</a></li>
+				<li><a href="category-children.html">Children</a></li>
+			</ul>
+			
+	</div>
+</nav>
+
+<!-- MAIN-MENU-AREA-START -->
+<section class="with-sidebar">
+	<div class="container">
+		<br/>
+		<div class="row">
+			<div id="left-content" class="col-md-9 col-md-push-3">
+				<div id="grid" class="row">
+				  <input class="search" placeholder="Search" />
+				  <button class="sort" data-sort="name">
+				    Sort by name
+				  </button>
+
+				  <div class="list row">
+				    <div class="single-product col-md-3">
+				    	<div class="product-img">
+							<a href="#">
+								<img alt="" src="img/products/1.jpg" class="primary-image">
+							</a>
+							<div class="action-button-area">
+								<div class="action-button">
+									<a class="cart-button" href="#">Add to Cart</a>
+								</div>
+							</div>
+						</div>
+								
+				    	<h2 class="product-name">
+							<a href="#" class="name">Etiam Gravida</a>
+						</h2>
+						<div class="price-box">
+							<span class="old-price"><strike>$222.00</strike></span>
+							<span class="special-price">$100.00</span>
+						</div>
+				    </div>
+				    <div class="single-product col-md-3">
+				    	<div class="product-img">
+							<a href="#">
+								<img alt="" src="img/products/1.jpg" class="primary-image">
+							</a>
+							<div class="action-button-area">
+								<div class="action-button">
+									<a class="cart-button" href="#">Add to Cart</a>
+								</div>
+							</div>
+						</div>
+								
+				    	<h2 class="product-name">
+							<a href="#" class="name">Jonas Arnklint</a>
+						</h2>
+						<div class="price-box">
+							<span class="old-price"><strike>$222.00</strike></span>
+							<span class="special-price">$100.00</span>
+						</div>
+				    </div>
+				    <div class="single-product col-md-3">
+				    	<div class="product-img">
+							<a href="#">
+								<img alt="" src="img/products/1.jpg" class="primary-image">
+							</a>
+							<div class="action-button-area">
+								<div class="action-button">
+									<a class="cart-button" href="#">Add to Cart</a>
+								</div>
+							</div>
+						</div>
+								
+				    	<h2 class="product-name">
+							<a href="#" class="name">Martina Elm</a>
+						</h2>
+						<div class="price-box">
+							<span class="old-price"><strike>$222.00</strike></span>
+							<span class="special-price">$100.00</span>
+						</div>
+				    </div>
+				  </div>
+
+				</div>
+			</div>
+				
+			<div id="sidebar" class="col-md-3 col-md-pull-9">
+				<div class="categories">
+					<h2 class="title">Categories</h2>
+					<ul class="list-unstyled">
+						<li><a href="#">Creative (2)</a></li>
+						<li><a href="#">Fashion (1)</a></li>
+						<li><a href="#">Image (1)</a></li>
+						<li><a href="#">Photography (1)</a></li>
+						<li><a href="#">Travel (4)</a></li>
+						<li><a href="#">Videos (2)</a></li>
+						<li><a href="#">WordPress (4)</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+</section>
+
+<!-- FOOTER-AREA-START -->
+<footer>
+	<div class="container">
+		<div class="col col-md-4">
+			<div class="single-footer-menu">
+				<div class="footer-title">
+					<h2>Company Info</h2>
+				</div>
+				<div class="footer-menu">
+					<ul class="list-unstyled">
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="privacy.html">Privacy Policy</a></li>
+						<li><a href="terms.html">Terms and Conditions</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col col-md-4">
+			<div class="single-footer-menu">
+				<div class="footer-title">
+					<h2>CUSTOMER SERVICE</h2>
+				</div>
+				<div class="footer-menu">
+					<ul class="list-unstyled">
+						<li><a href="#">Shipping policy</a></li>
+						<li><a href="#">Compensation Fist</a></li>
+						<li><a href="#">My Account</a></li>
+						<li><a href="#">Return Policy</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="http://listjs.com/no-cdn/list.js"></script>
+<script type="text/javascript">
+
+var options = {
+    valueNames: [ 'name' ]
+};
+
+var hackerList = new List('grid', options);
+</script>
+
+
+
+</body>
+</html>
